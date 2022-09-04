@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class NewShit {
+public class WordFrequency {
 
     private static String readFileIntoString(String fileName) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(fileName));
